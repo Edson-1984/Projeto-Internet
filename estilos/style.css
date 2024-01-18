@@ -115,6 +115,10 @@ section.tag > div{
     margin: auto;
 
 }
+div {
+    padding: 20px; 
+    margin: 10px;  
+}
 div > p{
     padding: 5px;
 }
