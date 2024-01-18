@@ -49,7 +49,7 @@ main{
     width: 65vw;
     background-color: white;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
 }
 section.internet > h1{
     margin: 10px;
@@ -62,7 +62,7 @@ section.internet > p{
     padding: 10px;
     text-indent: 30px;
     text-align: justify;
-    margin: 0px 10px;
+    margin: 0px 2px;
  
 }
 span.link{
@@ -94,7 +94,7 @@ section.html > p{
     padding: 10px;
     text-indent: 30px;
     text-align: justify;
-    margin: 0px 10px;
+    margin: 0px 2px;
 }
 section.tag > h2{
     margin: 10px;
@@ -107,7 +107,7 @@ section.tag > p{
     padding: 10px;
     text-indent: 30px;
     text-align: justify;
-    margin: 0px 10px;
+    margin: 0px 2px;
 }
 section.tag > div{
     background-color: aliceblue;
