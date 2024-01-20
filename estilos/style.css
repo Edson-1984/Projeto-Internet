@@ -7,9 +7,7 @@
 span.destaque{
     font-weight: bold;
 }
-body{
-    background-image: linear-gradient(to top, #725a4a, #ffefdb);
-}
+
 header{
     background-image: url(../imagens/pexels-jourdan-wee-3644098.jpg);
     background-position: center;
@@ -17,7 +15,7 @@ header{
     background-size: auto;
     
     
-   
+
 }
 header > h1{
     text-align: center;
@@ -32,22 +30,43 @@ header > h4{
     margin: 10px;
 }
 
-a > li{
-    marker: none;
-    display: inline-block;
-    color: white;
-    padding: 10px;
-    background-color: rgb(31, 30, 30);
-    border-radius: 5px;
+span.material-symbols-outlined{
+    background-color: #5a4f4886;
+    display: block;
+    color:rgb(17, 16, 16);
+    display: block;
+    text-align: center;
 }
-a > li:hover{
+span.material-symbols-outlined:hover{
+    background-color: rgb(182, 182, 182);
+    color: #5a4f48;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
+    
+}
+menu > ul > a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    
+}
+menu > ul > a > li{
+    text-align: center;
+    background-color: #EDDBC8;
+    padding: 2px    ;
+}
+menu > ul > a > li:hover{
     background-color: white;
     color: black;
     font-style: italic;
-    font-weight: bold;
+    
 }
+
 main{
-    width: 65vw;
+   
     background-color: white;
     margin: auto;
     padding: 5px;
@@ -64,14 +83,14 @@ section.internet > p{
     text-indent: 30px;
     text-align: justify;
     margin: 0px 2px;
- 
+
 }
 span.link{
     background-color: #ffefdb;
     color: black;
     margin: 0px 10px;
     border-radius: 5px;
-   
+
     
 }span.link::after{
     padding: 10px;
@@ -124,8 +143,9 @@ div > p{
     padding: 5px;
 }
 footer{
-    background-color: #ffefdb;
+    background-color: #192a51;
     width: 100vw;
     margin: auto;
     text-align: center;
+    color: white;
 }

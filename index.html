@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Internet</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
     <link rel="shortcut icon" href="Aha-Soft-Free-Global-Security-Global-Network.16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1 id="topo">Internet</h1>
         <h4>História, curiosidades e grandes nomes que estão por traz da maior invenção do mundo moderno!</h4>
-        <ul>
-            <a href="#Surgimento" ><li>Surgimento da Internet</li></a>
-            <a href="#html"><li>Como Funciona o HTML</li></a>
-            <a href="#tag"><li>O que são Tags?</li></a>
-        </ul>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <a href="#Surgimento" ><li>Surgimento da Internet</li></a>
+                <a href="#html"><li>Como Funciona o HTML</li></a>
+                <a href="#tag"><li>O que são Tags?</li></a>
+            </ul>
+        </menu>
     </header>
     <main>
         <section class="internet" >
@@ -131,6 +136,23 @@
         </section>
         <a href="#topo"><small>Voltar ao topo</small></a>
     </main>
+    <script>
+         function mudouTamanho(){
+            if (window.innerWidth >= 992){
+                itens.style.display = "block"
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+            if (itens.style.display == "block"){
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+       
+        }
+    </script>
     <footer>Este site foi desenvolvido para estudos de HTML e CSS por Edson Nóbrega</footer>
 </body>
 </html>
