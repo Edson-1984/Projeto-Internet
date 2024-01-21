@@ -4,12 +4,15 @@
     padding: 0px;
     margin: 0px;
 }
-@media screen and (min-width: 768px) and (max-width: 992px){    
+@media screen and (min-width: 768px) and (max-width: 992px){ 
+   
     body{
         background-image: linear-gradient(to top, #192a51, #969B9A);
+       
     }
     body > main{
         width: 80vw ;
+     
     }
 }
 @media screen and (min-width: 992px){
@@ -18,13 +21,20 @@
     }
     body > main{
         width: 60vw ;
+        
     }
    span.material-symbols-outlined{
        display: none;
+       
+    
    }
    menu > ul > a > li{
        display: inline-block;
        border-radius: 5px;
+       width: 180px;
+       padding: 5px;
+   
+      
        
    }
    header{
