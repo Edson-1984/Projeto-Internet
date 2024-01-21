@@ -71,8 +71,8 @@ menu > ul > a > li:hover{
 
 main{
     background-color: white;
-    margin: auto;
     box-shadow: 0px 2px 10px black;
+
    
    
 }
@@ -163,9 +163,10 @@ a > small#voltar:hover{
 }
 footer{
     background-color: #192a51;
-    width: 100vw;
     margin: auto;
     text-align: center;
     color: white;
-    padding: 5px;
+    padding: 10px;
+
+
 }
